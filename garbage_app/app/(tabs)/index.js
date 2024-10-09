@@ -10,6 +10,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import RegisterScreen from '../../Screens/RegisterScreen';
 import LoginScreen from '../../Screens/LoginScreen';
 import DashboardScreen from '../../Screens/DashboardScreen';
+import QRScanner from '../../Screens/QRScanner';
 
 
 //we want to declare for stack it contains all loading screens
@@ -25,6 +26,7 @@ export default function HomeScreen() {
         <Stack.Screen name='Login' component={LoginScreen}/>
         <Stack.Screen name='Register' component={RegisterScreen}/>
         <Stack.Screen name='Dashboard' component={DashboardScreen}/>
+        <Stack.Screen name='QRScanner' component={QRScanner}/>
       </Stack.Navigator>
     // </NavigationContainer> 
     
